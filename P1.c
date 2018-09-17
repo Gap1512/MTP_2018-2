@@ -34,7 +34,7 @@ int data_input(char *bit) {
 
 int data_output(char *bit, int state) {
   if (!state) printf("'%s' e multiplo de 3\n", bit);
-  else printf("'%s' nao e\n");
+  else printf("'%s' nao e\n", bit);
   return 0;
 }
 
