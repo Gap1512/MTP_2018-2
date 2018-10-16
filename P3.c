@@ -49,11 +49,8 @@ int main(int argc, char const *argv[]) {
   jmp = setjmp(env_buffer);
 
   if (jmp != 0) {printf("Error %d Occurred\n", jmp);}
-
   if (input(source)) longjmp(env_buffer, 1);
-
   if (string_to_number(source, &number)) longjmp(env_buffer, 2);
-
   if (output(&number)) longjmp(env_buffer, 3);
 
   return 0;
