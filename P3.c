@@ -1,4 +1,4 @@
-/* P2.c */
+/* P3.c */
 /* Gustavo Alves Pacheco */
 /* 11821ECP011 */
 
